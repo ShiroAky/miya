@@ -57,9 +57,9 @@ $DB = new DB();
 
                                 <div class="btn-play"><i class="fas fa-play" id="btn-play"></i></div>
 
-                                <div class="volumen">
-                                    <div class="btn-volume" id="btn-volume"><i class="fas fa-volume-up"></i></div>
-                                    <input type="range" min="0" max="100" id="volume">
+                                <div class="volume">
+                                    <div class="btn-volume"><i class="fas fa-volume-up" id="btn-volume"></i></div>
+                                    <input type="range" min="0" value="100" max="100" step="1" id="volume">
                                 </div>
 
                             </div>

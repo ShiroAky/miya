@@ -175,6 +175,11 @@ nav .items {
     position: absolute;
     bottom: 0px;
     padding: 2px 5px;
+    opacity: 0;
+}
+
+.video-principal .video-content .video:hover .controls {
+    opacity: 1;
 }
 
 .video-principal .video-content .video .controls progress {
@@ -223,6 +228,13 @@ nav .items {
     display: flex;
     align-items: center;
     align-content: center;
+    gap: 30px;
+}
+
+.video-principal .video-content .video .controls .btns .left-controls .volume {
+    display: flex;
+    align-items: center;
+    align-content: center;
     gap: 10px;
 }
 
@@ -240,10 +252,6 @@ nav .items {
     background-color: #dbdbdb;
     box-shadow: #000000 0px 0px 3px 0px;
     border-radius: 50%;
-}
-
-.video-principal .video-content .video:hover .controls {
-    display: block;
 }
 
 .video-principal .video-content .details {
