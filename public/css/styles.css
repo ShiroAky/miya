@@ -142,7 +142,7 @@ nav .items {
 }
 
 .video-principal .video-content .video {
-    max-height: 550px !important;
+    max-height: 480px !important;
     min-height: 250px;
     width: 100%;
     background-color: #000000;
@@ -150,19 +150,14 @@ nav .items {
     transition: all 400ms ease-in-out;
 }
 
-.video-principal .video-content .video:-moz-full-screen, .video:fullscreen .video:-webkit-full-screen {
-    width: 100vw !important;
-    height: 100vh !important;
-}
-
-.video-principal .video-content .video:fullscreen video {
+.video-principal .video-content .video:-moz-full-screen, .video:fullscreen .video:-webkit-full-screen .video:fullscreen video {
     width: 100vw !important;
     height: 100vh !important;
 }
 
 .video-principal .video-content .video video {
     width: 100%;
-    height: 500px !important;
+    height: 480px !important;
     aspect-ratio: 16 / 9;
 }
 

@@ -8,7 +8,7 @@
     <!-- Enlaces de la barra de navegación -->
     <div class="items">
 
-        <a href="./upload">Agregar</a>
+        <a href="/miya/upload">Agregar</a>
 
         <?php
             // Parseo de la url y segmentación
